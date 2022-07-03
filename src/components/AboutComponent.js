@@ -21,7 +21,7 @@ function RenderLeader({leader}) {
 
 }
 
-function LeaderList(props) {                    
+function LeaderList(props) {                                // list
 
     const leaders = props.leaders.leaders.map((leader) => {
         return (
