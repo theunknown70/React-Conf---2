@@ -5,7 +5,7 @@ import { Loading } from './LoadingComponent';
 import { baseUrl } from '../shared/baseUrl';
 import { Fade, Stagger } from 'react-animation-components';
 
-function RenderLeader({leader}) {                       // rendering
+function RenderLeader({leader}) {                      
     return(
         <Media tag="li">
             <Media left middle>
